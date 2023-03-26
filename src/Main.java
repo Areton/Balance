@@ -4,7 +4,7 @@ public class Main {
         int after;
         int now = 200;  // начального счёта,
         int add = 1150;    // суммы пополнения и тп
-        if (add >= 1000) {
+        if (add > 1000) {
             after = now + add + add / 100;
             System.out.println("Ваш баланс: " + after);
         } else {
